@@ -129,35 +129,40 @@ input::placeholder {
 /* RESPONSIVE */
 @media (max-width: 768px) {
   :root {
-    font-size: 50%;
+    font-size: 55%; /* Increased from 50% for slightly larger base sizes */
   }
 
   h1 {
-    font-size: 4rem; /* Smaller font size for h1 */
-    margin-bottom: 3rem; /* Smaller margin */
+    font-size: 4.5rem; /* Made larger for better visibility */
+    margin-bottom: 3.5rem; /* Increased margin for more space */
   }
 
   h1 > span {
-    font-size: 1.8rem;
+    font-size: 2rem; /* Slightly larger for better readability */
   }
 
   h2 {
-    font-size: 3rem; /* Smaller font size for h2 */
-    margin-bottom: 2rem; /* Smaller margin */
+    font-size: 3.5rem; /* Increased font size for h2 */
+    margin-bottom: 2.5rem; /* Increased margin for visual separation */
   }
 
   h3 {
-    font-size: 2.4rem; /* Adjusted font size for h3 */
+    font-size: 2.6rem; /* Slightly larger font size for h3 */
   }
 
   .container {
-    padding: 1rem;
-    max-width: 100%; /* Adjust max-width for smaller screens */
+    padding: 1.5rem; /* Slightly increased padding for better spacing */
+    max-width: 100%; /* Ensure it takes full width */
   }
 
   .btn, input {
-    width: 90%; /* Adjust width for smaller screens */
-    font-size: 1.6rem; /* Smaller font size */
-    padding: 1.2rem; /* Adjust padding */
+    width: 95%; /* Increase width for easier touch interaction */
+    font-size: 1.8rem; /* Increase font size for better readability */
+    padding: 1.5rem; /* Increase padding for a larger touch area */
+    margin-bottom: 2rem; /* Increase margin-bottom for more space between buttons */
+  }
+
+  .btn {
+    padding: 1.5rem 0; /* Adjust button padding specifically */
   }
 }
